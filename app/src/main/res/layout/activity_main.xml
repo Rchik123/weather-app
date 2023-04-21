@@ -6,13 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/imgbtn_today"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/bottom_imgbtn_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgbtn_hourly"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/today"
+        android:scaleType="centerInside"
+        android:background="@color/dark_purple"
+        app:tint="@color/white"
+        android:padding="@dimen/padding_imgbtn"
+        />
+
+    <ImageButton
+        android:id="@+id/imgbtn_hourly"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/bottom_imgbtn_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgbtn_today"
+        app:layout_constraintTop_toTopOf="@+id/imgbtn_today"
+        app:srcCompat="@drawable/hourly"
+        android:scaleType="centerInside"
+        android:background="@color/dark_purple"
+        app:tint="@color/white"
+        android:padding="@dimen/padding_imgbtn"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

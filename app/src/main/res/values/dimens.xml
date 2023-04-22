@@ -5,4 +5,7 @@
 
     <dimen name="margin_flag_top">16dp</dimen>
     <dimen name="flag_diam">50dp</dimen>
+    <dimen name="margin_flag_city">32dp</dimen>
+
+    <dimen name="font_size">16sp</dimen>
 </resources>

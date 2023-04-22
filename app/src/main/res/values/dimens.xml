@@ -2,4 +2,7 @@
 <resources>
     <dimen name="bottom_imgbtn_size">50dp</dimen>
     <dimen name="padding_imgbtn">8dp</dimen>
+
+    <dimen name="margin_flag_top">16dp</dimen>
+    <dimen name="flag_diam">50dp</dimen>
 </resources>

@@ -5,12 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".TodayFragment">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="fragment today"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="298dp" />
+    <include
+        layout="@layout/flags_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

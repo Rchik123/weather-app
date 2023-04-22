@@ -5,12 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".HourlyFragment">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="fragment hourly"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="242dp" />
+    <include
+        layout="@layout/flags_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

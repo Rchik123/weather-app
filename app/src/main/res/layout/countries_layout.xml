@@ -6,52 +6,52 @@
     android:layout_height="match_parent">
 
     <ImageButton
-        android:id="@+id/imgbtn_georgia"
-        android:layout_width="@dimen/flag_diam"
-        android:layout_height="@dimen/flag_diam"
+        android:id="@+id/ib_georgia"
+        android:layout_width="@dimen/diam_flag"
+        android:layout_height="@dimen/diam_flag"
         android:layout_marginTop="@dimen/margin_flag_top"
         android:background="@color/transparent"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/imgbtn_uk"
+        app:layout_constraintEnd_toStartOf="@+id/ib_uk"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/georgia" />
 
     <ImageButton
-        android:id="@+id/imgbtn_uk"
-        android:layout_width="@dimen/flag_diam"
-        android:layout_height="@dimen/flag_diam"
+        android:id="@+id/ib_uk"
+        android:layout_width="@dimen/diam_flag"
+        android:layout_height="@dimen/diam_flag"
         android:background="@color/transparent"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/imgbtn_jamaica"
+        app:layout_constraintEnd_toStartOf="@+id/ib_jamaica"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imgbtn_georgia"
-        app:layout_constraintTop_toTopOf="@+id/imgbtn_georgia"
+        app:layout_constraintStart_toEndOf="@+id/ib_georgia"
+        app:layout_constraintTop_toTopOf="@+id/ib_georgia"
         app:srcCompat="@drawable/uk" />
 
     <ImageButton
-        android:id="@+id/imgbtn_jamaica"
-        android:layout_width="@dimen/flag_diam"
-        android:layout_height="@dimen/flag_diam"
+        android:id="@+id/ib_jamaica"
+        android:layout_width="@dimen/diam_flag"
+        android:layout_height="@dimen/diam_flag"
         android:background="@color/transparent"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imgbtn_uk"
-        app:layout_constraintTop_toTopOf="@+id/imgbtn_uk"
+        app:layout_constraintStart_toEndOf="@+id/ib_uk"
+        app:layout_constraintTop_toTopOf="@+id/ib_uk"
         app:srcCompat="@drawable/jamaica" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_city"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_flag_city"
-        android:text="CITYNAME"
+        android:text="@string/placeholder_city"
         android:textSize="@dimen/font_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtn_uk" />
+        app:layout_constraintTop_toBottomOf="@+id/ib_uk" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

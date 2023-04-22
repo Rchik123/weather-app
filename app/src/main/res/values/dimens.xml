@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="font_size">16sp</dimen>
+    <dimen name="degree_font_size">48sp</dimen>
 
     <dimen name="bottom_imgbtn_size">50dp</dimen>
     <dimen name="padding_imgbtn">8dp</dimen>
     <dimen name="margin_flag_top">16dp</dimen>
     <dimen name="diam_flag">50dp</dimen>
     <dimen name="margin_flag_city">32dp</dimen>
+
+    <!--> today page dimensions <-->
+    <dimen name="margin_city_weather">16dp</dimen>
+    <dimen name="weather_size">100dp</dimen>
+    <dimen name="margin_weather_degree">16dp</dimen>
+    <dimen name="margin_degree_weathertxt">16dp</dimen>
+    <dimen name="margin_weathertxt_details">32dp</dimen>
+    <dimen name="margin_side_details">16dp</dimen>
+    <dimen name="margin_between_details">16dp</dimen>
 </resources>

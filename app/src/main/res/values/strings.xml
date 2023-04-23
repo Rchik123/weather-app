@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Weather app</string>
-    <string name="placeholder_city">CITYNAME</string>
+    <string name="details">DETAILS</string>
+
+    <!--> placeholders <-->
+    <string name="ph_city_name">CITYNAME</string>
+    <string name="ph_detail_name">Detail</string>
+    <string name="ph_detail_value">404</string>
+    <string name="ph_weather_desc">DESCRIPTION</string>
+    <string name="ph_degree">404</string>
 </resources>

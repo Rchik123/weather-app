@@ -18,7 +18,7 @@
     <ImageButton
         android:id="@+id/ib_today"
         android:layout_width="0dp"
-        android:layout_height="@dimen/bottom_imgbtn_size"
+        android:layout_height="@dimen/bottom_ib_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ib_hourly"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,7 @@
     <ImageButton
         android:id="@+id/ib_hourly"
         android:layout_width="0dp"
-        android:layout_height="@dimen/bottom_imgbtn_size"
+        android:layout_height="@dimen/bottom_ib_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ib_today"
         app:layout_constraintTop_toTopOf="@+id/ib_today"

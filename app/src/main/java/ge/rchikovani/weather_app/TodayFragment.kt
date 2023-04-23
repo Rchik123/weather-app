@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import ge.rchikovani.weather_app.rv.items.DetailItem
+import ge.rchikovani.weather_app.rv.items.OverviewItem
 
 class TodayFragment : Fragment() {
     override fun onCreateView(
@@ -18,7 +20,17 @@ class TodayFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        setRecyclerAdapter(view)
+    }
 
-        view.findViewById<RecyclerView>(R.id.rv_today).adapter = TodayAdapter()
+    private fun setRecyclerAdapter(view: View) {
+        val detailList = arrayListOf<DetailItem>().apply {
+            add(DetailItem("Temperature", "5*"))
+            add(DetailItem("Feels Like", "3*"))
+            add(DetailItem("Humidity", "74%"))
+            add(DetailItem("Pressure", "1010"))
+        }
+        val overview = OverviewItem("LONDON", "5*", "BROKEN CLOUDS", null)
+        view.findViewById<RecyclerView>(R.id.rv_today).adapter = TodayAdapter(overview, detailList)
     }
 }

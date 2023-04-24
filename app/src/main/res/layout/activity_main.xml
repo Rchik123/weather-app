@@ -26,7 +26,7 @@
         android:scaleType="centerInside"
         android:background="@color/dark_purple"
         app:tint="@color/white"
-        android:padding="@dimen/padding_imgbtn"
+        android:padding="@dimen/padding_ib"
         />
 
     <ImageButton
@@ -40,6 +40,6 @@
         android:scaleType="centerInside"
         android:background="@color/dark_purple"
         app:tint="@color/white"
-        android:padding="@dimen/padding_imgbtn"
+        android:padding="@dimen/padding_ib"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

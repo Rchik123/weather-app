@@ -4,7 +4,7 @@
     <dimen name="degree_font_size">48sp</dimen>
 
     <dimen name="bottom_ib_size">50dp</dimen>
-    <dimen name="padding_imgbtn">8dp</dimen> <!-->TODO size here might need to be changed<-->
+    <dimen name="padding_ib">8dp</dimen>
     <dimen name="margin_flag_top">16dp</dimen>
     <dimen name="diam_flag">50dp</dimen>
     <dimen name="margin_flag_city">32dp</dimen>
@@ -16,5 +16,5 @@
     <dimen name="margin_degree_weatherdesc">16dp</dimen>
     <dimen name="margin_weatherdesc_details">32dp</dimen>
     <dimen name="margin_side_details">16dp</dimen>
-    <dimen name="padding_vertical_details">16dp</dimen>
+    <dimen name="padding_vertical_details">8dp</dimen>
 </resources>

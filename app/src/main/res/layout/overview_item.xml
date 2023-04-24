@@ -41,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_degree_weatherdesc"
         android:text="@string/ph_weather_desc"
+        android:textSize="@dimen/font_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_degree" />
@@ -51,7 +52,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_side_details"
         android:layout_marginTop="@dimen/margin_weatherdesc_details"
+        android:paddingBottom="@dimen/padding_vertical_details"
         android:text="@string/details"
+        android:textSize="@dimen/font_size"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_weather_desc" />
 

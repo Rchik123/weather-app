@@ -17,4 +17,10 @@
     <dimen name="margin_weatherdesc_details">32dp</dimen>
     <dimen name="margin_side_details">16dp</dimen>
     <dimen name="padding_vertical_details">8dp</dimen>
+
+    <!--> hourly fragment dimensions <-->
+    <dimen name="height_hourly_item">70dp</dimen>
+    <dimen name="margin_between_hourly_views">16dp</dimen>
+    <dimen name="size_hourly_icon">50dp</dimen>
+    <dimen name="font_size_hourly_temp">24sp</dimen>
 </resources>

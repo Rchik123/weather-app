@@ -1,10 +1,11 @@
-package ge.rchikovani.weather_app
+package ge.rchikovani.weather_app.rv.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import ge.rchikovani.weather_app.R
 import ge.rchikovani.weather_app.rv.items.DetailItem
 import ge.rchikovani.weather_app.rv.items.OverviewItem
 

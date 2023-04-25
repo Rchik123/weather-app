@@ -1,13 +1,12 @@
-package ge.rchikovani.weather_app
+package ge.rchikovani.weather_app.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
+import ge.rchikovani.weather_app.R
 import ge.rchikovani.weather_app.rv.adapters.HourlyAdapter
 import ge.rchikovani.weather_app.rv.items.HourlyItem
 
